@@ -1,0 +1,99 @@
+body {
+    font-family:'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    background:rgb(8, 107, 124);
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+
+
+nav {
+    background-color: #2f7e52;
+    padding: 1rem 0;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+
+nav button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    background: #0ace14;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 15px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+
+nav button:hover {
+    background: #1321e76e;
+}
+
+
+.main-content {
+    margin-top: 100px;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+    width: 100%;
+}
+
+
+
+
+.sticky-box {
+    margin: 50px auto;
+    width: 500px;
+    min-height: 250px;
+    padding: 30px;
+    background-color: #277e8a;
+    color: rgb(0, 250, 125);
+    font-size: 18px;
+    border-radius: 50px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+ul li {
+    padding: 0;
+    margin: 0;
+}
+
+
+footer {
+    background-color: #21b162;
+    padding: 10px 0;
+    font-size: 0.9rem;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    z-index: 10;
+    color: rgb(255, 255, 255);
+}
